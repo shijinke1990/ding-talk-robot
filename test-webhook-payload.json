@@ -1,0 +1,42 @@
+{
+  "ref": "refs/heads/master",
+  "before": "00000000000000000000000000000000",
+  "after": "1234567890abcdef1234567890abcdef12345678",
+  "compare_url": "http://gogs.example.com/user/repo/compare/master",
+  "commits": [
+    {
+      "id": "1234567890abcdef1234567890abcdef12345678",
+      "message": "添加新功能：用户认证模块",
+      "url": "http://gogs.example.com/user/repo/commit/1234567890abcdef1234567890abcdef12345678",
+      "author": {
+        "name": "张三",
+        "email": "zhangsan@example.com"
+      },
+      "timestamp": "2025-09-17T06:00:00Z"
+    },
+    {
+      "id": "abcdef1234567890abcdef1234567890abcdef12",
+      "message": "修复登录页面样式问题",
+      "url": "http://gogs.example.com/user/repo/commit/abcdef1234567890abcdef1234567890abcdef12",
+      "author": {
+        "name": "李四",
+        "email": "lisi@example.com"
+      },
+      "timestamp": "2025-09-17T05:30:00Z"
+    }
+  ],
+  "repository": {
+    "id": 123,
+    "name": "awesome-project",
+    "full_name": "company/awesome-project",
+    "html_url": "http://gogs.example.com/company/awesome-project",
+    "description": "一个很棒的项目",
+    "private": false,
+    "default_branch": "master"
+  },
+  "pusher": {
+    "name": "张三",
+    "email": "zhangsan@example.com",
+    "username": "zhangsan"
+  }
+}

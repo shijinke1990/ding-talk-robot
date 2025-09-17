@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  h1= title
+  if description
+    p= description
+  
+  h2 服务接口
+  ul
+    li 
+      strong POST /webhook/gogs
+      | &nbsp;- 接收 Gogs Webhook 事件
+    li 
+      strong GET /webhook/health
+      | &nbsp;- 健康检查
+    li 
+      strong POST /webhook/test-dingtalk
+      | &nbsp;- 测试钉钉机器人连接
+    li 
+      strong POST /webhook/test-dingtalk-formats
+      | &nbsp;- 测试多种消息格式
+    li 
+      strong GET /webhook/dingtalk-diagnostic
+      | &nbsp;- 钉钉机器人配置诊断
+    li 
+      strong GET /info
+      | &nbsp;- 获取服务信息
+  
+  h2 使用说明
+  p 在 Gogs 仓库设置中添加 Webhook，URL 设置为：
+  code http://您的域名:3000/webhook/gogs
+  
+  h2 问题排查
+  p 如果消息发送成功但钉钉群里收不到：
+  ol
+    li 检查机器人是否正确添加到群聊
+    li 使用诊断接口检查配置
+    li 尝试不同的消息格式测试
+    li 重新创建钉钉机器人

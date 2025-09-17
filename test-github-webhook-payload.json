@@ -1,0 +1,158 @@
+{
+  "ref": "refs/heads/main",
+  "before": "0000000000000000000000000000000000000000",
+  "after": "1234567890abcdef1234567890abcdef12345678",
+  "created": false,
+  "deleted": false,
+  "forced": false,
+  "base_ref": null,
+  "compare": "https://github.com/testuser/test-repo/compare/main...1234567",
+  "commits": [
+    {
+      "id": "1234567890abcdef1234567890abcdef12345678",
+      "tree_id": "abcdef1234567890abcdef1234567890abcdef12",
+      "distinct": true,
+      "message": "测试：添加 GitHub Webhook 功能模块",
+      "timestamp": "2025-09-17T08:00:00Z",
+      "url": "https://github.com/testuser/test-repo/commit/1234567890abcdef1234567890abcdef12345678",
+      "author": {
+        "name": "测试用户",
+        "email": "test@example.com",
+        "username": "testuser"
+      },
+      "committer": {
+        "name": "测试用户",
+        "email": "test@example.com",
+        "username": "testuser"
+      },
+      "added": ["src/github-webhook.js"],
+      "removed": [],
+      "modified": ["README.md"]
+    },
+    {
+      "id": "abcdef1234567890abcdef1234567890abcdef12",
+      "tree_id": "1234567890abcdef1234567890abcdef12345678",
+      "distinct": true,
+      "message": "优化：改进 GitHub 事件处理逻辑",
+      "timestamp": "2025-09-17T07:30:00Z",
+      "url": "https://github.com/testuser/test-repo/commit/abcdef1234567890abcdef1234567890abcdef12",
+      "author": {
+        "name": "开发者",
+        "email": "developer@example.com",
+        "username": "developer"
+      },
+      "committer": {
+        "name": "开发者",
+        "email": "developer@example.com",
+        "username": "developer"
+      },
+      "added": [],
+      "removed": [],
+      "modified": ["src/webhook-handler.js", "config/github-config.js"]
+    }
+  ],
+  "head_commit": {
+    "id": "1234567890abcdef1234567890abcdef12345678",
+    "tree_id": "abcdef1234567890abcdef1234567890abcdef12",
+    "distinct": true,
+    "message": "测试：添加 GitHub Webhook 功能模块",
+    "timestamp": "2025-09-17T08:00:00Z",
+    "url": "https://github.com/testuser/test-repo/commit/1234567890abcdef1234567890abcdef12345678",
+    "author": {
+      "name": "测试用户",
+      "email": "test@example.com",
+      "username": "testuser"
+    },
+    "committer": {
+      "name": "测试用户",
+      "email": "test@example.com",
+      "username": "testuser"
+    },
+    "added": ["src/github-webhook.js"],
+    "removed": [],
+    "modified": ["README.md"]
+  },
+  "repository": {
+    "id": 123456789,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxMjM0NTY3ODk=",
+    "name": "test-repo",
+    "full_name": "testuser/test-repo",
+    "private": false,
+    "owner": {
+      "name": "testuser",
+      "email": "test@example.com",
+      "login": "testuser",
+      "id": 12345,
+      "node_id": "MDQ6VXNlcjEyMzQ1",
+      "avatar_url": "https://github.com/images/error/testuser_happy.gif",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/testuser",
+      "html_url": "https://github.com/testuser",
+      "type": "User",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/testuser/test-repo",
+    "description": "测试仓库，用于 GitHub Webhook 集成",
+    "fork": false,
+    "url": "https://api.github.com/repos/testuser/test-repo",
+    "created_at": "2023-01-01T00:00:00Z",
+    "updated_at": "2025-09-17T08:00:00Z",
+    "pushed_at": "2025-09-17T08:00:00Z",
+    "git_url": "git://github.com/testuser/test-repo.git",
+    "ssh_url": "git@github.com:testuser/test-repo.git",
+    "clone_url": "https://github.com/testuser/test-repo.git",
+    "svn_url": "https://github.com/testuser/test-repo",
+    "homepage": null,
+    "size": 1024,
+    "stargazers_count": 10,
+    "watchers_count": 5,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 2,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZW1pdA=="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "topics": ["webhook", "dingtalk", "github"],
+    "visibility": "public",
+    "forks": 2,
+    "open_issues": 3,
+    "watchers": 5,
+    "default_branch": "main"
+  },
+  "pusher": {
+    "name": "testuser",
+    "email": "test@example.com"
+  },
+  "sender": {
+    "login": "testuser",
+    "id": 12345,
+    "node_id": "MDQ6VXNlcjEyMzQ1",
+    "avatar_url": "https://github.com/images/error/testuser_happy.gif",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/testuser",
+    "html_url": "https://github.com/testuser",
+    "followers_url": "https://api.github.com/users/testuser/followers",
+    "following_url": "https://api.github.com/users/testuser/following{/other_user}",
+    "gists_url": "https://api.github.com/users/testuser/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/testuser/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/testuser/subscriptions",
+    "organizations_url": "https://api.github.com/users/testuser/orgs",
+    "repos_url": "https://api.github.com/users/testuser/repos",
+    "events_url": "https://api.github.com/users/testuser/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/testuser/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
